@@ -69,7 +69,7 @@ h4 {
     }
 }
 
-@media (min-width:430px){
+@media (max-width:430px){
     #container {
         flex-wrap: wrap;
     }
@@ -84,7 +84,7 @@ button {
     color:white;
     background-color:purple;
     border-radius: 20px;
-    margin-left:30%;
+    margin-left:40px;
     transition: background-color 2s ease-in 2s;
 }
 button:hover {
